@@ -1,0 +1,28 @@
+{
+  "name": "postcss-rtlcss-less-and-sass",
+  "version": "1.0.0",
+  "description": "Testing postcss-rtlcss with Less and Sass",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "postcss-rtlcss",
+    "rtlcss"
+  ],
+  "author": "ElChiniNet",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-sass": "^7.0.0",
+    "postcss": "^8.4.4",
+    "postcss-loader": "^6.2.1",
+    "postcss-rtlcss": "^3.5.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

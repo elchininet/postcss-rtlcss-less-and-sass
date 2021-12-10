@@ -1,0 +1,42 @@
+@import './vars';
+@import './mixins';
+
+.box-size (@width: 50px, @height: 50px) {
+  width: @width;
+  height: @height;
+}
+
+.one-less {
+  background-color: @base;
+  left: @s10;
+  .box-size(@s50, @s100);
+}
+.two-less {
+  background-color: @lighter1;
+  text-align: left;
+  .box-size(@s20, @s60);
+}
+.three-less {
+  background-color: @lighter2;
+  padding: @s10 @s20 @s30 @s40;
+  .box-size(@s40, @s30);
+}
+.four-less {
+  background-color: @darker1;
+  border-left: 1px solid @darker1;
+  .box-size(@s30, @s80);
+}
+.five-less {
+  background-color: @darker2;
+  right: @s10;
+  .box-size(@s100, @s50);
+}
+
+.one-less,
+.two-less,
+.three-less,
+.four-less,
+.five-less {
+    display: inline-block;
+    margin: 0 0 0 @s10;
+}

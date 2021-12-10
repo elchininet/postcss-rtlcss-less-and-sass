@@ -1,0 +1,130 @@
+.one-less {
+  background-color: #663333;
+  width: 50px;
+  height: 100px;
+}
+
+[dir="ltr"] .one-less {
+  left: 10px;
+}
+
+[dir="rtl"] .one-less {
+  right: 10px;
+}
+
+.two-less {
+  background-color: #884a44;
+  width: 20px;
+  height: 60px;
+}
+
+[dir="ltr"] .two-less {
+  text-align: left;
+}
+
+[dir="rtl"] .two-less {
+  text-align: right;
+}
+
+.three-less {
+  background-color: #aa6355;
+  width: 40px;
+  height: 30px;
+}
+
+[dir="ltr"] .three-less {
+  padding: 10px 20px 30px 40px;
+}
+
+[dir="rtl"] .three-less {
+  padding: 10px 40px 30px 20px;
+}
+
+.four-less {
+  background-color: #442225;
+  width: 30px;
+  height: 80px;
+}
+
+[dir="ltr"] .four-less {
+  border-left: 1px solid #442225;
+}
+
+[dir="rtl"] .four-less {
+  border-right: 1px solid #442225;
+}
+
+.five-less {
+  background-color: #221114;
+  width: 100px;
+  height: 50px;
+}
+
+[dir="ltr"] .five-less {
+  right: 10px;
+}
+
+[dir="rtl"] .five-less {
+  left: 10px;
+}
+
+.one-less,
+.two-less,
+.three-less,
+.four-less,
+.five-less {
+  display: inline-block;
+}
+
+[dir="ltr"] .one-less,
+[dir="ltr"] .two-less,
+[dir="ltr"] .three-less,
+[dir="ltr"] .four-less,
+[dir="ltr"] .five-less {
+  margin: 0 0 0 10px;
+}
+
+[dir="rtl"] .one-less,
+[dir="rtl"] .two-less,
+[dir="rtl"] .three-less,
+[dir="rtl"] .four-less,
+[dir="rtl"] .five-less {
+  margin: 0 10px 0 0;
+}
+
+.one-sass{background-color:#633;width:50px;height:100px}
+
+[dir="ltr"] .one-sass{left:10px}
+
+[dir="rtl"] .one-sass{right:10px}
+
+.two-sass{background-color:#884a44;width:20px;height:60px}
+
+[dir="ltr"] .two-sass{text-align:left}
+
+[dir="rtl"] .two-sass{text-align:right}
+
+.three-sass{background-color:#aa6355;width:40px;height:30px}
+
+[dir="ltr"] .three-sass{padding:10px 20px 30px 40px}
+
+[dir="rtl"] .three-sass{padding:10px 40px 30px 20px}
+
+.four-sass{background-color:#442225;width:30px;height:80px}
+
+[dir="ltr"] .four-sass{border-left:1px solid #442225}
+
+[dir="rtl"] .four-sass{border-right:1px solid #442225}
+
+.five-sass{background-color:#221114;width:100px;height:50px}
+
+[dir="ltr"] .five-sass{right:10px}
+
+[dir="rtl"] .five-sass{left:10px}
+
+.one-less,.two-less,.three-less,.four-less,.five-less{display:inline-block}
+
+[dir="ltr"] .one-less,[dir="ltr"] .two-less,[dir="ltr"] .three-less,[dir="ltr"] .four-less,[dir="ltr"] .five-less{margin:0 0 0 10px}
+
+[dir="rtl"] .one-less,[dir="rtl"] .two-less,[dir="rtl"] .three-less,[dir="rtl"] .four-less,[dir="rtl"] .five-less{margin:0 10px 0 0}
+
